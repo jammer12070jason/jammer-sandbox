@@ -6,7 +6,7 @@ public class ContactProviderTest {
 
 	public static void main(String[] args) {
 		 List<Contact> model = ContactProvider.createInitialModel();
-		 //Check model size   
+		 //Check model size
 		 if (model.size()!=4){
 		      throw new RuntimeException("FAIL: Contact Provider total contacts should be 4");
 		    } else {
@@ -21,7 +21,7 @@ public class ContactProviderTest {
 				 foundAnn = true;
 		 }
 		 if (foundAnn){
-			 System.out.println("Found Ann");
+			 System.out.println("Found Ann!");
 		 } else {
 			 throw new RuntimeException("FAIL: Contact Ann Anderson not found");
 		 }
